@@ -853,12 +853,11 @@ body {
     border-radius: 50%;
     background-color: transparent;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    transition: border-color var(--transition-duration-function);
+    transition: border-color var(--transition-duration-function), fill var(--transition-duration-function);
 }
 
 .modal-close-icon {
-    fill: #000000;
-    transition: fill var(--transition-duration-function);
+    fill: var(--secondary-color-dark);  
 }
 
 .modal-close-btn:hover,

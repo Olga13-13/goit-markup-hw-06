@@ -1048,7 +1048,9 @@ body {
     color: var(--primary-text-color-theme-gray);
 }
 
-
+.modal-form-check-policy-link {
+    color: var(--accent-color);
+}
 
 .modal-form-check {
     position: absolute;
